@@ -51,8 +51,8 @@ h1, h2, h3 , h4, h5, h6 {
   
   /* Jumbotron  */
   .jumbotron {
-    background-image: url(images/Studies.jpg);
-    background-size: cover;
+    background-image: url(images/Beach.jpg);
+    background-size:cover;
     background-repeat: no-repeat;
     height: calc(100vh - 25px);
     display: flex;
