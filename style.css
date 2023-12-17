@@ -31,14 +31,14 @@ h1, h2, h3 , h4, h5, h6 {
   
   /* Navigation dropdown menu */
   .dropdown-menu {
-    background: url("../images/transparency.png");
+    background: url("images/dark\ backround.jpg");
     background-color: transparent !important;
     background-size: cover;
   }
   .dropdown-item:focus, .dropdown-item:hover {
-      color: #16181b;
+      color: #ffffff;
       text-decoration: none;
-      background: black;
+      background: rgb(155, 109, 241);
   }
   
   /* Navigation links */
@@ -51,7 +51,7 @@ h1, h2, h3 , h4, h5, h6 {
   
   /* Jumbotron  */
   .jumbotron {
-    background-image: url(../images/rockOn_dark.jpg);
+    background-image: url(images/Studies.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: calc(100vh - 25px);
@@ -72,6 +72,9 @@ h1, h2, h3 , h4, h5, h6 {
   /* STYLES FOR TEMPLATE PLEASE DO NOT TOUCH*/
   .dropdown-menu {
     left: -97px;
+  }
+  .navbardrop{
+    background-color: black;
   }
   footer {
     position: absolute;
