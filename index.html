@@ -11,7 +11,10 @@
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Anton|Jura&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+  integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+  integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   <title>Bootstrap Portofolio</title>
 </head>
 
@@ -39,9 +42,7 @@
           <a class="nav-link" href="#">Email📧</a>
         </li>
         <li class="nav-item">
-<button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Bottom popover">
-  Popover on bottom
-</button>
+          <a class="nav-link" href="#">Email📧</a>
         </li>
         <li class="nav-item dropdown navbardrop">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
@@ -59,18 +60,31 @@
         </li>
       </ul>
     </div>
+    
   </nav>
   <!-- End navigation bar -->
 
-  <!-- Jumbotron -->
+  <!-- Jumbotron -->  
   <div class="jumbotron rockBackground">
     <div class="jumboCopy">
       <h1 class="display-4">Rahmatullah Zadran</h1>
       <p class="lead">About Myself</p>
-      <a class="btn btn-primary btn-lg" href="#" role="button">Contact</a>
+      <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">My Details</button>
+
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasRightLabel">My Details</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <p>Phone: 07500370660</p>
+          <p>Adress:191 Cromell Road PE1 2EL  </p>
+          
+        </div>
+      </div>
     </div>
   </div>
-  <!-- End jumbotron -->
+  <!-- End jumbotron -->  
   <!-- Cards -->
   <div class="container-fluid content">
     <h2 class="sectionHeading">About Myself</h2>
@@ -131,67 +145,200 @@
     </div>
   </div>
   <!-- End cards -->
+  <div class="container-fluid content">
+    <h2 class="sectionHeading">About Myself</h2>
+    <div class="row showsNear">
+      <!-- Card 1 -->
+      <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+        <div class="card">
+          <img src="images/alton.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Hobbies</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">More</a>
+          </div>
+        </div>
+      </div>
+      <!-- End card 1 -->
+
+      <!-- Card 2 -->
+      <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+        <div class="card">
+          <img src="images/alton.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Education</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">More</a>
+          </div>
+        </div>
+      </div>
+      <!-- End card 2 -->
+
+      <!-- Card 3 -->
+      <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+        <div class="card">
+          <img src="images/alton.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Work Experience</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">More</a>
+          </div>
+        </div>
+      </div>
+      <!-- End card 3 -->
+      <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+        <div class="card">
+          <img src="images/alton.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Coding</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">More</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container-fluid content">
+    <h2 class="sectionHeading">About Myself</h2>
+    <div class="row showsNear">
+      <!-- Card 1 -->
+      <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+        <div class="card">
+          <img src="images/alton.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Hobbies</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">More</a>
+          </div>
+        </div>
+      </div>
+      <!-- End card 1 -->
+
+      <!-- Card 2 -->
+      <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+        <div class="card">
+          <img src="images/alton.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Education</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">More</a>
+          </div>
+        </div>
+      </div>
+      <!-- End card 2 -->
+
+      <!-- Card 3 -->
+      <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+        <div class="card">
+          <img src="images/alton.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Work Experience</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">More</a>
+          </div>
+        </div>
+      </div>
+      <!-- End card 3 -->
+      <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+        <div class="card">
+          <img src="images/alton.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Coding</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">More</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>  
+
+  <div class="container-fluid content">
+    <h2 class="sectionHeading">About Myself</h2>
+    <div class="row showsNear">
+      <!-- Card 1 -->
+      <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+        <div class="card">
+          <img src="images/alton.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Hobbies</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">More</a>
+          </div>
+        </div>
+      </div>
+      <!-- End card 1 -->
+
+      <!-- Card 2 -->
+      <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+        <div class="card">
+          <img src="images/alton.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Education</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">More</a>
+          </div>
+        </div>
+      </div>
+      <!-- End card 2 -->
+
+      <!-- Card 3 -->
+      <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+        <div class="card">
+          <img src="images/alton.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Work Experience</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">More</a>
+          </div>
+        </div>
+      </div>
+      <!-- End card 3 -->
+      <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+        <div class="card">
+          <img src="images/alton.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Coding</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">More</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
 
 
   
 
-  <!-- Content -->
-  <div class="container-fluid content">
-
-    <h2 class="sectionHeading">Why we are better</h2>
-    <div class="row valueProp">
-      <div class="sideAccent">
-      </div>
-      <div class="imageContainer" class="col-3">
-        <img src="images/alton.jpg">
-      </div>
-      <div class="col-8">
-        <h3>Title 1</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet.
-        </p>
-        <a href="#" class="btn btn-primary">Contact Us
-        </a>
-      </div>
-    </div>
-
-    <div class="row valueProp">
-      <div class="sideAccent">
-      </div>
-      <div class="imageContainer" class="col-3">
-        <img src="images/alton.jpg">
-      </div>
-      <div class="col-8">
-        <h3>Title 1</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet.
-        </p>
-        <a href="#" class="btn btn-primary">Contact Us
-        </a>
-      </div>
-    </div>
-    <div class="row valueProp">
-      <div class="sideAccent">
-      </div>
-      <div class="imageContainer" class="col-3">
-        <img src="images/assistance.png">
-      </div>
-      <div class="col-8">
-        <h3>Title 1</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet.
-        </p>
-        <a href="#" class="btn btn-primary">Contact Us
-        </a>
-      </div>
-    </div>  
-    <!-- End row 1 -->
-   
-
-
 
   </div>
   <!-- End content -->
+  <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Toggle right offcanvas</button>
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    ...sd df ksdf jsf 
+  </div>
+</div>
 
   <!-- Footer -->
   <footer>
@@ -206,10 +353,10 @@
   </footer>
   <!-- End footer -->
   <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->  
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
- integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" 
- crossorigin="anonymous"></script>
+
+  <script src="java.js" type="JavaScript"></script>
+
+<script src="https://unpkg.com/@popperjs/core@2" type="text/JavaScript"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
