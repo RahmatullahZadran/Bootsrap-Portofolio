@@ -21,7 +21,7 @@
 <body>
 
   <!-- Navigation bar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-white customNav">
+  <nav class="navbar navbar-expand-lg navbar-light bg-white customNav" id="home">
     <a class="navbar-brand navpic" href="#"><img src="images/navbar pic.jpg">Rahmatullah Zadran</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,33 +30,29 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home🏠<span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="navbar-collapse">Home🏠<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">GitHub🈸</a>
+          <a class="nav-link" href="https://github.com/">GitHub🈸</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">LinkedIN🈂️</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Email📧</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Email📧</a>
+          <a class="nav-link" href="https://github.com/">LinkedIN🈂️</a>
         </li>
         <li class="nav-item dropdown navbardrop">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">More✅</a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Venues</a>
+            <a class="dropdown-item" href="#">Hobbies</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Artists</a>
+            <a class="dropdown-item" href="#">Education</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Upcoming Acts</a>
+            <a class="dropdown-item" href="#">Work Experience</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Coding</a>
           </div>
         </li>
         <li class="nav-item">
-          <a class="btn btn-primary btn-lg navCTA" href="#" role="button">Contact</a>
+          <a class="btn btn-primary btn-lg navCTA" href="#contact" role="button">Contact</a>
         </li>
       </ul>
     </div>
@@ -78,6 +74,7 @@
         </div>
         <div class="offcanvas-body">
           <p>Phone: 07500370660</p>
+          <p>Email:RahmatullahZadran@outlook.com</p>
           <p>Adress:191 Cromell Road PE1 2EL  </p>
           
         </div>
@@ -86,7 +83,7 @@
   </div>
   <!-- End jumbotron -->  
   <!-- Cards -->
-  <div class="container-fluid content">
+  <div class="container-fluid content" id="Back">
     <h2 class="sectionHeading">About Myself</h2>
     <div class="row showsNear">
       <!-- Card 1 -->
@@ -145,18 +142,18 @@
     </div>
   </div>
   <!-- End cards -->
-  <div class="container-fluid content">
-    <h2 class="sectionHeading">About Myself</h2>
+  <div class="container-fluid content Hobbies">
+    <h2 class="sectionHeading">Hobbies</h2>
     <div class="row showsNear">
       <!-- Card 1 -->
       <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
         <div class="card">
           <img src="images/alton.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Hobbies</h5>
+            <h5 class="card-title">Archery</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
               content.</p>
-            <a href="#" class="btn btn-primary">More</a>
+            <a href="#Back" class="btn btn-primary">Back</a>
           </div>
         </div>
       </div>
@@ -167,10 +164,10 @@
         <div class="card">
           <img src="images/alton.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Education</h5>
+            <h5 class="card-title">Swimming</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
               content.</p>
-            <a href="#" class="btn btn-primary">More</a>
+            <a href="#Back" class="btn btn-primary">Back</a>
           </div>
         </div>
       </div>
@@ -181,10 +178,10 @@
         <div class="card">
           <img src="images/alton.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Work Experience</h5>
+            <h5 class="card-title">Gym</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
               content.</p>
-            <a href="#" class="btn btn-primary">More</a>
+            <a href="#Back" class="btn btn-primary">Back</a>
           </div>
         </div>
       </div>
@@ -193,10 +190,10 @@
         <div class="card">
           <img src="images/alton.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Coding</h5>
+            <h5 class="card-title">Traveling</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
               content.</p>
-            <a href="#" class="btn btn-primary">More</a>
+            <a href="#Back" class="btn btn-primary">Back</a>
           </div>
         </div>
       </div>
@@ -204,18 +201,18 @@
     </div>
   </div>
 
-  <div class="container-fluid content">
-    <h2 class="sectionHeading">About Myself</h2>
+  <div class="container-fluid content Education">
+    <h2 class="sectionHeading">Education</h2>
     <div class="row showsNear">
       <!-- Card 1 -->
       <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
         <div class="card">
           <img src="images/alton.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Hobbies</h5>
+            <h5 class="card-title">School</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
               content.</p>
-            <a href="#" class="btn btn-primary">More</a>
+            <a href="Back" class="btn btn-primary">Back</a>
           </div>
         </div>
       </div>
@@ -226,7 +223,7 @@
         <div class="card">
           <img src="images/alton.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Education</h5>
+            <h5 class="card-title">College</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
               content.</p>
             <a href="#" class="btn btn-primary">More</a>
@@ -240,7 +237,7 @@
         <div class="card">
           <img src="images/alton.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Work Experience</h5>
+            <h5 class="card-title">Univercity</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
               content.</p>
             <a href="#" class="btn btn-primary">More</a>
@@ -252,7 +249,7 @@
         <div class="card">
           <img src="images/alton.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Coding</h5>
+            <h5 class="card-title">Bootcamp</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
               content.</p>
             <a href="#" class="btn btn-primary">More</a>
@@ -264,7 +261,7 @@
   </div>  
 
   <div class="container-fluid content">
-    <h2 class="sectionHeading">About Myself</h2>
+    <h2 class="sectionHeading">Work Experience</h2>
     <div class="row showsNear">
       <!-- Card 1 -->
       <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
@@ -319,38 +316,76 @@
         </div>
       </div>
 
+      <div class="container-fluid content Coding">
+        <h2 class="sectionHeading">Coding</h2>
+        <div class="row showsNear">
+          <!-- Card 1 -->
+          <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+            <div class="card">
+              <img src="images/alton.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">HTML</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                  content.</p>
+                <a href="#" class="btn btn-primary">More</a>
+              </div>
+            </div>
+          </div>
+          <!-- End card 1 -->
+    
+          <!-- Card 2 -->
+          <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+            <div class="card">
+              <img src="images/alton.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">CSS</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                  content.</p>
+                <a href="#" class="btn btn-primary">More</a>
+              </div>
+            </div>
+          </div>
+          <!-- End card 2 -->
+    
+          <!-- Card 3 -->
+          <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+            <div class="card">
+              <img src="images/alton.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">JavaScript</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                  content.</p>
+                <a href="#" class="btn btn-primary">More</a>
+              </div>
+            </div>
+          </div>
+          <!-- End card 3 -->
+          <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+            <div class="card">
+              <img src="images/alton.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Coding</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                  content.</p>
+                <a href="#" class="btn btn-primary">More</a>
+              </div>
+            </div>
+          </div>
+
     </div>
   </div>
-
-
-  
-
-
+  </div>
+  <div class="mb-3" id="contact"> 
+    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  </div>
+  <div class="mb-3">
+    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    <button type="button" class="btn btn-primary">Submit</button>
   </div>
   <!-- End content -->
-  <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Toggle right offcanvas</button>
-
-<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-  <div class="offcanvas-header">
-    <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
-    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-  </div>
-  <div class="offcanvas-body">
-    ...sd df ksdf jsf 
-  </div>
-</div>
-
   <!-- Footer -->
-  <footer>
-    <form>
-      <div class="form-group">
-        <label for="exampleInputEmail1">Email address</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-          placeholder="Enter email">
-      </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
-  </footer>
   <!-- End footer -->
   <!-- Optional JavaScript -->
 
